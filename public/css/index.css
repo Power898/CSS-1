@@ -73,31 +73,31 @@ button.header-button + span {
 
 /* Завдання №1: Для першого елементу списку зробіть колір тексту білим */
 
-.sun:first-child {
+li:first-child {
     color: white;
 }
 
 /* Завдання №2: Змінити колір тексту першого елемента списку в першому блоці ul на жовтий */
 
-.item:first-child {
+ul:first-child, li:first-child {
     color:yellow;
 }
 
 /* Завдання №3: Змінити фон першого елементу на жовтий в другому блоку ul */
 
-.sus:first-child {
+ul:last-child, li:first-child {
     background:yellow;
 }
 
 /* Завдання №4:  Змінити фон останнього елементу списку на жовтий */
 
-.cop:last-child {
+li:last-child {
     background: yellow;
 }
 
 /* Завдання №5: Змінити колір тексту останнього елемента списку в останньому блоці ul на білий */
 
-.cat:last-child {
+ul:last-child, li:last-child {
     color:white;
 }
 
@@ -188,7 +188,7 @@ span[class$='s'] {
   <!--  Використовуйте селектор псевдоелементу першої літери */
 
 h2::first-letter {
-    color:rgb(219, 69, 69);
+    color:red;
 }  
 
 /* Завдання №10. Задайте першому рядку жовтий фон. -->
